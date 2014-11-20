@@ -1,0 +1,23 @@
+{
+  "name": "stylist",
+  "version": "0.0.0",
+  "description": "CSS adventure workshop",
+  "bin": {
+    "stylist": "runner.js"
+  },
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "cascading",
+    "style",
+    "sheets",
+    "nodeschool",
+    "adventure",
+    "education"
+  ],
+  "dependencies": {
+    "adventure": "^2.2.0",
+    "adventure-verify": "^2.1.1"
+  }
+}
