@@ -18,6 +18,20 @@
   ],
   "dependencies": {
     "adventure": "^2.2.0",
-    "adventure-verify": "^2.1.1"
-  }
+    "adventure-verify": "^2.1.1",
+    "phantomjs": "^1.9.12"
+  },
+  "main": "runner.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanshaw/stylist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/stylist/issues"
+  },
+  "homepage": "https://github.com/alanshaw/stylist"
 }

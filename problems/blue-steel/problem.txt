@@ -1,0 +1,1 @@
+Write some CSS that changes the `background-color` of the HTML `<body>` element to "SteelBlue".

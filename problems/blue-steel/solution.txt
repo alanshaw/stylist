@@ -1,5 +1,7 @@
 Here's the reference solution, if you're interested:
 
-  module.exports = 'beep boop'
+    body {
+        background-color: steelblue;
+    }
 
 But your solution is probably good too.

@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-var adventure = require('adventure');
-var shop = adventure('example-adventure');
+var adventure = require('adventure')
+var shop = adventure('stylist')
 
-var problems = [ 'dinosaurs', 'robots', 'wowsers' ];
+var problems = [ 'blue-steel' ]
 problems.forEach(function (prob) {
-    shop.add(prob, function () { return require('./problems/' + prob) });
-});
+    shop.add(prob, function () { return require('./problems/' + prob) })
+})
 
-shop.execute(process.argv.slice(2));
+shop.execute(process.argv.slice(2))
