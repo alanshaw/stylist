@@ -27,7 +27,7 @@ page.open(system.args[1], function () {
     var bgColor = window.getComputedStyle(document.body)['background-color']
 
     if (bgColor != 'rgb(70, 130, 180)') {
-      return new Error('"' + bgColor + '" is not expected')
+      return new Error('"' + bgColor + '" is not "steelblue"')
     }
   })
 

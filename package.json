@@ -1,5 +1,5 @@
 {
-  "name": "stylist",
+  "name": "stylist-workshop",
   "version": "0.0.0",
   "description": "CSS adventure workshop",
   "bin": {
@@ -12,9 +12,15 @@
     "cascading",
     "style",
     "sheets",
+    "web",
+    "design",
     "nodeschool",
     "adventure",
-    "education"
+    "education",
+    "lean",
+    "learning",
+    "workshop",
+    "workshopper"
   ],
   "dependencies": {
     "adventure": "^2.2.0",
