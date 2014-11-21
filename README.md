@@ -8,10 +8,12 @@ An [adventure](https://npmjs.org/package/adventure) workshop to teach CSS.
 
 1. Install [Node.js](http://nodejs.org/)
 2. Open a terminal window and install stylist:
+
     ```sh
     npm install -g stylist-workshop
     ```
 3. Start the workshopper:
+
     ```sh
     stylist
     ```
