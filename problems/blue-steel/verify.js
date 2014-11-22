@@ -31,7 +31,9 @@ page.open(system.args[1], function () {
     }
   })
 
-  if (error) console.error(error.message)
+  if (error) console.error('\n\033[31mERROR:\033[0m', error.message)
+
+  page.render(system.args[2].replace('.css', '') + '.jpg')
 
   phantom.exit(error ? 500 : 0)
 })
