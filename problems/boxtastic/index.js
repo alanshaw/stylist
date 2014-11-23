@@ -3,8 +3,8 @@ var path = require('path')
 var execFile = require('child_process').execFile
 var phantomjs = require('phantomjs')
 
-exports.problem = fs.createReadStream(path.join(__dirname, 'problem.txt'))
-exports.solution = fs.createReadStream(path.join(__dirname, 'solution.txt'))
+exports.problem = fs.createReadStream(path.join(__dirname, 'problem.md'))
+exports.solution = fs.createReadStream(path.join(__dirname, 'solution.md'))
 
 exports.verify = function (args, cb) {
   var verifyScriptPath = path.join(__dirname, 'verify.js')
