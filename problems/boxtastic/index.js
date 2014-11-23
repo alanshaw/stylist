@@ -2,9 +2,10 @@ var fs = require('fs')
 var path = require('path')
 var execFile = require('child_process').execFile
 var phantomjs = require('phantomjs')
+var msee = require('msee')
 
-exports.problem = fs.createReadStream(path.join(__dirname, 'problem.md'))
-exports.solution = fs.createReadStream(path.join(__dirname, 'solution.md'))
+exports.problem = msee.parseFile(path.join(__dirname, 'problem.md'), {collapseNewlines: false})
+exports.solution = msee.parseFile(path.join(__dirname, 'solution.md'), {collapseNewlines: false})
 
 exports.verify = function (args, cb) {
   var verifyScriptPath = path.join(__dirname, 'verify.js')

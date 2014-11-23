@@ -25,6 +25,7 @@
   "dependencies": {
     "adventure": "^2.2.0",
     "adventure-verify": "^2.1.1",
+    "msee": "git+https://github.com/alanshaw/msee.git",
     "phantomjs": "^1.9.12"
   },
   "main": "runner.js",

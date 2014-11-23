@@ -2,7 +2,7 @@ Write some CSS to make navigation links BIG (32px), **bold** and green. All othe
 
 * * *
 
-Links in HTML are `<a>` elements. In the document you're styling navigation links are in a `<nav>` element e.g.
+Links in HTML are `<a>` elements. In the document you're styling, navigation links are in a `<nav>` element e.g.
 
 ```html
 <nav>
@@ -10,6 +10,7 @@ Links in HTML are `<a>` elements. In the document you're styling navigation link
   <a href="http://facebook.com">Facebook</a>
   <a href="http://twitter.com">Twitter</a>
 </nav>
+
 <h1>Welcome</h1>
 <p>Some introduction content with a red, italic <a href="http://tableflip.io/">link to something else</a></p>
 ```
@@ -26,8 +27,7 @@ Selecting elements within elements (descendants) is as easy as separating your s
 </ul>
 ```
 
-You can find more information about descendant selectors here:
-https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors
+You can find more information in the [descendant selectors docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors)
 
 * * *
 

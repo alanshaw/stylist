@@ -13,6 +13,7 @@ Classes can be applied to more than one element in HTML. They look like this:
   <h1>Title 1</h1>
   <p>Content 1</p>
 </div>
+
 <div class="article">
   <h1>Title 2</h1>
   <p>Content 2</p>
@@ -43,8 +44,7 @@ You specify an ID selector in CSS using an octothorpe `#`. A CSS rule to target 
 }
 ```
 
-Use the CSS property reference to pick the right properties to style the document:
-https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+Use the [CSS property reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) to pick the right properties to style the document.
 
 * * *
 
