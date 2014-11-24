@@ -7,7 +7,8 @@ var problems = [
   'blue-steel',
   'pick-and-choose',
   'the-descendents',
-  'boxtastic'
+  'boxtastic',
+  'unit-shifter'
 ]
 
 problems.forEach(function (prob) {
