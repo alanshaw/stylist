@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 var adventure = require('adventure')
 var shop = adventure({name: 'stylist', fg: 'white', bg: 'magenta'})
 
@@ -16,4 +14,4 @@ problems.forEach(function (prob) {
   shop.add(name, function () { return require('./problems/' + prob) })
 })
 
-shop.execute(process.argv.slice(2))
+module.exports = shop
