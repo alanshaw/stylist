@@ -12,6 +12,8 @@ Up until now you've probably been using `px` as your unit of measurement. Pixels
 
 `em`, `rem` and `%` are all **relative units of measurement**. Both `em` and `%` are relative to the `font-size` of the containing element (when used in a `font-size` property). `rem`s are relative to the `font-size` of the **root** element - `<html>`.
 
+Using relative units of measurement come in handy when dealing with different screen sizes. Combined with **media queries**, they're a great tool for building responsive websites that work on mobile, desktop and everything in between.
+
 See the extensive [docs on CSS length](https://developer.mozilla.org/en-US/docs/Web/CSS/length) for more information.
 
 * * *
