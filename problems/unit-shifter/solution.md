@@ -1,7 +1,7 @@
 Here's the reference solution, if you're interested:
 
     h1, h2 {
-      font-size: 2.5em;
+      font-size: 3em;
     }
 
     h1 span {
