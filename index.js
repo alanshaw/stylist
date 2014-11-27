@@ -3,7 +3,7 @@ var shop = adventure({name: 'stylist', fg: 'white', bg: 'magenta'})
 
 var problems = [
   'blue-steel',
-  'pick-and-choose',
+  'bo-selecta',
   'the-descendents',
   'boxtastic',
   'unit-shifter'
