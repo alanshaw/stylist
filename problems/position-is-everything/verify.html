@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+  font-family: sans-serif;
+  background: #eee;
+  margin: 15px 20px;
+}
+nav ul {
+  padding: 0;
+  border: 1px solid #fff;
+}
+nav > ul {
+  display: inline-block;
+  background: hotpink;
+}
+nav li {
+  display: inline-block;
+}
+nav li li {
+  display: block;
+}
+nav ul ul {
+  display: none;
+}
+nav .show ul {
+  display: block;
+  background: limegreen;
+}
+nav a {
+  white-space: nowrap;
+  display: block;
+  line-height: 30px;
+  padding: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+nav > ul > li > a {
+  border-left: 1px solid #fff;
+}
+nav > ul > li:first-child > a {
+  border-left: none;
+}
+nav li li a {
+  border-top: 1px solid #fff;
+}
+nav li li:first-child a {
+  border-top: none;
+}
+</style>
+</head>
+<body>
+<h1>Synergy Web Design Ltd</h1>
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li>
+      <a href="/clients">Clients</a>
+      <ul>
+        <li><a href="/bobs-sprockets">Bob's Sprockets</a></li>
+        <li><a href="/daves-spades">Dave's Spades</a></li>
+        <li><a href="/pauls-pitchers">Paul's Pitchers</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="/portfolio">Portfolio</a>
+      <ul>
+        <li><a href="/piece-1">Piece One</a></li>
+        <li><a href="/piece-2">Piece #2</a></li>
+        <li><a href="/piece-3">Piece Three</a></li>
+        <li><a href="/piece-4">Piece #4</a></li>
+        <li><a href="/piece-5">Piece Five</a></li>
+      </ul>
+    </li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+<p><span class="important">Pellentesque habitant morbi tristique</span> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+</body>
+</html>
