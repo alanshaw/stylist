@@ -1,6 +1,6 @@
 {
   "name": "stylist-workshop",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "CSS adventure workshop",
   "bin": {
     "stylist": "bin/stylist.js"
