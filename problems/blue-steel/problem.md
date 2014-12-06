@@ -35,4 +35,5 @@ For this exercise, the selector we need to use is `body`, the property we want t
 
 * * *
 
+Render the page to JPG by running: `stylist run solution.css`
 Verify your solution is correct by running: `stylist verify solution.css`

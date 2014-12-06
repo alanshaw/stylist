@@ -48,4 +48,5 @@ Use the [CSS property reference](https://developer.mozilla.org/en-US/docs/Web/CS
 
 * * *
 
+Render the page to JPG by running: `stylist run solution.css`
 Verify your solution is correct by running: `stylist verify solution.css`

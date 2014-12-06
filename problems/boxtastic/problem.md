@@ -36,4 +36,5 @@ See the [box model documentation](https://developer.mozilla.org/en-US/docs/Web/C
 
 * * *
 
+Render the page to JPG by running: `stylist run solution.css`
 Verify your solution is correct by running: `stylist verify solution.css`

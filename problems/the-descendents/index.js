@@ -21,3 +21,16 @@ exports.verify = function (args, cb) {
     cb(true)
   })
 }
+
+exports.run = function (args) {
+  var verifyScriptPath = path.join(__dirname, 'run.js')
+  var verifyHtmlPath = path.join(__dirname, 'verify.html')
+  var solutionCssPath = path.resolve(args[0])
+
+  var childArgs = [verifyScriptPath, verifyHtmlPath, solutionCssPath]
+
+  execFile(phantomjs.path, childArgs, function (er, stdout, stderr) {
+    if (stdout) console.log(stdout)
+    if (stderr) console.error(stderr)
+  })
+}

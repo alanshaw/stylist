@@ -105,4 +105,5 @@ In the browser, it'll look something like this:
 
 * * *
 
+Render the page to JPG by running: `stylist run solution.css`
 Verify your solution is correct by running: `stylist verify solution.css`

@@ -31,4 +31,5 @@ You can find more information in the [descendant selectors docs](https://develop
 
 * * *
 
+Render the page to JPG by running: `stylist run solution.css`
 Verify your solution is correct by running: `stylist verify solution.css`

@@ -18,4 +18,5 @@ See the extensive [docs on CSS length](https://developer.mozilla.org/en-US/docs/
 
 * * *
 
+Render the page to JPG by running: `stylist run solution.css`
 Verify your solution is correct by running: `stylist verify solution.css`
