@@ -6,7 +6,8 @@ var problems = [
   'bo-selecta',
   'the-descendents',
   'boxtastic',
-  'unit-shifter'
+  'unit-shifter',
+  'position-is-everything'
 ]
 
 problems.forEach(function (prob) {
